@@ -13,24 +13,24 @@ public class Calculator {
         return mValueOne;
     }
 
-    public void setValueOne(double mValueOne) {
-        this.mValueOne = mValueOne;
+    public void setValueOne(double valueOne) {
+        this.mValueOne = valueOne;
     }
 
     public double getValueTwo() {
         return mValueTwo;
     }
 
-    public void setValueTwo(double mValueTwo) {
-        this.mValueTwo = mValueTwo;
+    public void setValueTwo(double valueTwo) {
+        this.mValueTwo = valueTwo;
     }
 
     public String getOperator() {
         return mOperator;
     }
 
-    public void setOperator(String mOperator) {
-        this.mOperator = mOperator;
+    public void setOperator(String operator) {
+        this.mOperator = operator;
     }
 
     public double compute() {
@@ -50,5 +50,4 @@ public class Calculator {
         }
         return Double.NaN;
     }
-
 }

@@ -19,5 +19,4 @@ public class MainActivity extends AppCompatActivity {
         inflater.inflate(R.menu.activity_main, menu);
         return true;
     }
-
 }

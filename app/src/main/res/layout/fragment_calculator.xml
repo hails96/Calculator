@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tv_calculation"
+        android:id="@+id/text_view_calculation"
         style="@style/ValueTextView" />
 
     <TextView
-        android:id="@+id/tv_result"
+        android:id="@+id/text_view_result"
         style="@style/ValueTextView" />
 
     <View
@@ -22,22 +22,22 @@
     <LinearLayout style="@style/CalculatorRowLayout">
 
         <Button
-            android:id="@+id/btn_ac"
+            android:id="@+id/button_ac"
             style="@style/CalculatorButton"
             android:text="@string/calculator_ac" />
 
         <Button
-            android:id="@+id/btn_sign"
+            android:id="@+id/button_sign"
             style="@style/CalculatorButton"
             android:text="@string/calculator_sign" />
 
         <Button
-            android:id="@+id/btn_percent"
+            android:id="@+id/button_percent"
             style="@style/CalculatorButton"
             android:text="@string/calculator_percent" />
 
         <Button
-            android:id="@+id/btn_divide"
+            android:id="@+id/button_divide"
             style="@style/CalculatorButton.Operator"
             android:text="@string/calculator_divide" />
 
@@ -46,22 +46,22 @@
     <LinearLayout style="@style/CalculatorRowLayout">
 
         <Button
-            android:id="@+id/btn_seven"
+            android:id="@+id/button_seven"
             style="@style/CalculatorButton"
             android:text="@string/calculator_seven" />
 
         <Button
-            android:id="@+id/btn_eight"
+            android:id="@+id/button_eight"
             style="@style/CalculatorButton"
             android:text="@string/calculator_eight" />
 
         <Button
-            android:id="@+id/btn_nine"
+            android:id="@+id/button_nine"
             style="@style/CalculatorButton"
             android:text="@string/calculator_nine" />
 
         <Button
-            android:id="@+id/btn_multiply"
+            android:id="@+id/button_multiply"
             style="@style/CalculatorButton.Operator"
             android:text="@string/calculator_multiply" />
 
@@ -70,22 +70,22 @@
     <LinearLayout style="@style/CalculatorRowLayout">
 
         <Button
-            android:id="@+id/btn_four"
+            android:id="@+id/button_four"
             style="@style/CalculatorButton"
             android:text="@string/calculator_four" />
 
         <Button
-            android:id="@+id/btn_five"
+            android:id="@+id/button_five"
             style="@style/CalculatorButton"
             android:text="@string/calculator_five" />
 
         <Button
-            android:id="@+id/btn_six"
+            android:id="@+id/button_six"
             style="@style/CalculatorButton"
             android:text="@string/calculator_six" />
 
         <Button
-            android:id="@+id/btn_subtract"
+            android:id="@+id/button_subtract"
             style="@style/CalculatorButton.Operator"
             android:text="@string/calculator_subtract" />
 
@@ -94,22 +94,22 @@
     <LinearLayout style="@style/CalculatorRowLayout">
 
         <Button
-            android:id="@+id/btn_one"
+            android:id="@+id/button_one"
             style="@style/CalculatorButton"
             android:text="@string/calculator_one" />
 
         <Button
-            android:id="@+id/btn_two"
+            android:id="@+id/button_two"
             style="@style/CalculatorButton"
             android:text="@string/calculator_two" />
 
         <Button
-            android:id="@+id/btn_three"
+            android:id="@+id/button_three"
             style="@style/CalculatorButton"
             android:text="@string/calculator_three" />
 
         <Button
-            android:id="@+id/btn_add"
+            android:id="@+id/button_add"
             style="@style/CalculatorButton.Operator"
             android:text="@string/calculator_add" />
 
@@ -118,18 +118,18 @@
     <LinearLayout style="@style/CalculatorRowLayout">
 
         <Button
-            android:id="@+id/btn_zero"
+            android:id="@+id/button_zero"
             style="@style/CalculatorButton"
             android:layout_weight="2"
             android:text="@string/calculator_zero" />
 
         <Button
-            android:id="@+id/btn_dot"
+            android:id="@+id/button_dot"
             style="@style/CalculatorButton"
             android:text="@string/calculator_dot" />
 
         <Button
-            android:id="@+id/btn_result"
+            android:id="@+id/button_result"
             style="@style/CalculatorButton.Operator"
             android:text="@string/calculator_result" />
 

@@ -23,7 +23,7 @@
     <string name="calculation_number_place_holder">%s%s</string>
     <string name="calculation_operator_place_holder">%s %s&#160;</string>
     <string name="calculation_result_place_holder">= %.2f</string>
-    <string name="syntax_error_message">Syntax Error</string>
-    <string name="clear_label">Clear</string>
-    <string name="save_label">Save</string>
+    <string name="error_syntax">Syntax Error</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_save">Save</string>
 </resources>
