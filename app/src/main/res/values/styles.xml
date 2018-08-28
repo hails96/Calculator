@@ -8,4 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ValueTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/sp_32</item>
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:layout_margin">@dimen/dp_20</item>
+    </style>
+    
+    <style name="CalculatorRowLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/dp_80</item>
+        <item name="android:background">@drawable/btn_calculator_background</item>
+    </style>
+
+    <style name="CalculatorButton.Operator">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_calculator_operator_background</item>
+    </style>
+
 </resources>
