@@ -35,5 +35,4 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/btn_calculator_operator_background</item>
     </style>
-
 </resources>
