@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">C</string>
+    <string name="app_name">Calculator</string>
+    <string name="calculator_ac">AC</string>
+    <string name="calculator_sign">+/-</string>
+    <string name="calculator_percent">%</string>
+    <string name="calculator_divide">/</string>
+    <string name="calculator_seven">7</string>
+    <string name="calculator_eight">8</string>
+    <string name="calculator_nine">9</string>
+    <string name="calculator_multiply">*</string>
+    <string name="calculator_four">4</string>
+    <string name="calculator_five">5</string>
+    <string name="calculator_six">6</string>
+    <string name="calculator_subtract">-</string>
+    <string name="calculator_one">1</string>
+    <string name="calculator_two">2</string>
+    <string name="calculator_three">3</string>
+    <string name="calculator_add">+</string>
+    <string name="calculator_zero">0</string>
+    <string name="calculator_dot">.</string>
+    <string name="calculator_result">=</string>
+
+    <string name="calculation_number_place_holder">%s%s</string>
+    <string name="calculation_operator_place_holder">%s %s&#160;</string>
+    <string name="calculation_result_place_holder">= %.2f</string>
+    <string name="error_syntax">Syntax Error</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_save">Save</string>
 </resources>
